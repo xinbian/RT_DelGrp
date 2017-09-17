@@ -51,7 +51,7 @@ for istep in step:
 	delimiter = ''
 	mylist = ['Fields/',variable1,'/',istep]
 	filepath = delimiter.join(mylist)	
-#	del H5File[filepath]
+	del H5File[filepath]
 
 
 H5File.close()
